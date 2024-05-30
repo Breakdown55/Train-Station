@@ -1,5 +1,5 @@
 # Train-Station
-A tool for producing .h5 and .keras AI models for image classification from up to 6 classes
+A tool for producing .h5 and .keras AI models for image classification for up to 6 classes. Epochs and Batch Size are customizable. Each class must be in the form of folders with images inside.
 
 
 # Download Executable
