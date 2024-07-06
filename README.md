@@ -15,3 +15,4 @@ A tool for producing .h5 and .keras AI models for image classification for up to
 
 # Notes
 1. This program will use all resources available to it while training, so manually limiting CPU usage of the prorgam may work best for you.
+2. A labels.txt file is available in the folder where the models were saved to
