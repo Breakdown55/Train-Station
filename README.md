@@ -41,7 +41,7 @@ data = np.ndarray(shape=(1, 180, 180, 3), dtype=np.float32)
 # Replace this with the path to your image
 image = Image.open("<IMAGE_PATH>").convert("RGB")
 
-# resizing the image to be at least 224x224 and then cropping from the center
+# resizing the image to be at least 180x180 and then cropping from the center
 size = (180, 180)
 image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
 
